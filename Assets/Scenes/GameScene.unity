@@ -18141,9 +18141,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   followTarget: 1
-  targetFollow: {fileID: 1970456191}
+  targetFollow: {fileID: 1607438540}
   targetSpeed: 4
-  targetOffset: {x: 0, y: 0, z: 0}
+  targetOffset: {x: 0, y: -3, z: 0}
   lockX: 0
   lockY: 1
   applyLimits: 1
@@ -20975,6 +20975,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7776952416622238955, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
   m_PrefabInstance: {fileID: 1598960787}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1607438540 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2190685825514976205, guid: 61ad60b686694884fa01704db733ce21, type: 3}
+  m_PrefabInstance: {fileID: 1737994626741682207}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1679650794
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22262,11 +22267,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!4 &1970456191 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1577597879942339500, guid: 61ad60b686694884fa01704db733ce21, type: 3}
-  m_PrefabInstance: {fileID: 1737994626741682207}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1989201727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22654,6 +22654,10 @@ PrefabInstance:
     - target: {fileID: 34696148678167535, guid: 61ad60b686694884fa01704db733ce21, type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 34696148678167535, guid: 61ad60b686694884fa01704db733ce21, type: 3}
+      propertyPath: m_Interpolate
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 34696148678167535, guid: 61ad60b686694884fa01704db733ce21, type: 3}
       propertyPath: m_GravityScale
