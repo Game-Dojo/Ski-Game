@@ -127,6 +127,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (2)
@@ -17874,6 +17906,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (5)
@@ -17945,12 +18009,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 320748934}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9804285
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.4764
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.01
       objectReference: {fileID: 0}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.34
+      value: -5.6018
       objectReference: {fileID: 0}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -18388,6 +18460,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (12)
@@ -18449,6 +18553,7 @@ GameObject:
   - component: {fileID: 776217080}
   - component: {fileID: 776217079}
   - component: {fileID: 776217078}
+  - component: {fileID: 776217082}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -18539,6 +18644,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &776217082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776217077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f39222634340a74485699f43547cb39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  wonPanel: {fileID: 1829481656}
 --- !u!1001 &794187928
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19999,6 +20117,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (26)
@@ -20096,6 +20246,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (27)
@@ -20282,6 +20464,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (18)
@@ -20349,6 +20563,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (1)
@@ -20468,6 +20714,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (15)
@@ -20539,12 +20817,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 320748934}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.01062
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5161777
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.08
+      value: -3.9993
       objectReference: {fileID: 0}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -43.53
+      value: -43.7719
       objectReference: {fileID: 0}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20606,6 +20892,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (13)
@@ -20668,6 +20986,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (17)
@@ -20797,6 +21147,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (24)
@@ -20859,6 +21241,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (23)
@@ -20921,6 +21335,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (22)
@@ -20988,6 +21434,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (11)
@@ -21045,6 +21523,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (16)
@@ -21169,6 +21679,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (8)
@@ -21226,6 +21768,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (7)
@@ -21283,6 +21857,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (4)
@@ -21340,6 +21946,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (21)
@@ -21940,6 +22578,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (10)
@@ -21997,6 +22667,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (3)
@@ -22054,6 +22756,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (9)
@@ -22116,6 +22850,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (20)
@@ -22275,6 +23041,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (6)
@@ -22389,6 +23187,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (19)
@@ -22451,6 +23281,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (25)
@@ -22518,6 +23380,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab (14)
@@ -22594,12 +23488,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 320748934}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.9622848
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.54462725
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.94
+      value: -2.0032
       objectReference: {fileID: 0}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -16.58
+      value: -16.6812
       objectReference: {fileID: 0}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.z
@@ -22657,7 +23559,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 34696148678167535, guid: 61ad60b686694884fa01704db733ce21, type: 3}
       propertyPath: m_Interpolate
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 34696148678167535, guid: 61ad60b686694884fa01704db733ce21, type: 3}
       propertyPath: m_GravityScale
@@ -22786,6 +23688,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 253584703}
     m_Modifications:
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1829060239}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: SetScore
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: GameManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3512750566127587607, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
+      propertyPath: onTriggered.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6829046112471087155, guid: ea40ae64bc395674fab0895e6006c3d4, type: 3}
       propertyPath: m_Name
       value: CoinPrefab
@@ -22852,12 +23786,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 320748934}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.0500019
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.3798
+      objectReference: {fileID: 0}
+    - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.0216
+      value: 1.9828
       objectReference: {fileID: 0}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -32.51
+      value: -32.8201
       objectReference: {fileID: 0}
     - target: {fileID: 7236988138175652991, guid: d287bb24a78d15041a8d2b378879a8f3, type: 3}
       propertyPath: m_LocalPosition.z

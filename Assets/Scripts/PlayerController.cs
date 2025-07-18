@@ -13,12 +13,29 @@ public class PlayerController : MonoBehaviour
     
     private bool _isJumping = false;
     private bool _isFalling = false;
+
+    private GameManager _manager;
+    private Rigidbody2D _rigid;
+
+    private Vector3 _lastVelocity;
+    private float _lastGravity;
+    private bool _isPaused = false;
     
     private void Awake()
     {
         _visual = transform.GetChild(0); // Getting the Sprite visuals
         _collider = GetComponent<CircleCollider2D>();
         _body = GetComponent<Rigidbody2D>();
+    }
+
+    private void Start()
+    {
+        _rigid = GetComponent<Rigidbody2D>();
+        _manager = FindAnyObjectByType<GameManager>();
+        _manager.OnGamePause += OnGamePaused;
+        
+        _lastVelocity = _rigid.linearVelocity;
+        _lastGravity = _rigid.gravityScale;
     }
 
     private void Update()
@@ -34,6 +51,28 @@ public class PlayerController : MonoBehaviour
     private void MoveTowards(Vector3 target)
     {
         _body.AddForce(target * movementSpeed);
+    }
+
+    private void OnGamePaused()
+    {
+        _isPaused = !_isPaused;
+        
+        if (_isPaused)
+        {
+            _lastVelocity = _rigid.linearVelocity;
+            _lastGravity = _rigid.gravityScale;
+        }
+        
+        if (_isPaused)
+        {
+            _rigid.linearVelocity = Vector3.zero;
+            _rigid.gravityScale = 0;
+        }
+        else
+        {
+            _rigid.linearVelocity = _lastVelocity;
+            _rigid.gravityScale = _lastGravity;
+        }
     }
     
     private void JumpVisuals()
@@ -73,5 +112,10 @@ public class PlayerController : MonoBehaviour
         _isJumping = true;
         _isFalling = false;
         _collider.enabled = false;
+    }
+
+    private void OnDestroy()
+    {
+        _manager.OnGamePause -= OnGamePaused;
     }
 }
