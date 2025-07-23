@@ -41,7 +41,8 @@ public class PlayerController : MonoBehaviour
     private void Update()
     {
         float horizontal = Input.GetAxisRaw("Horizontal");
-        Vector3 movement = new Vector3(horizontal, 0, 0);
+        float jumpAirControl = (_isJumping) ? 0.4f : 1;
+        Vector3 movement = new Vector3(horizontal, 0, 0) * jumpAirControl;
         MoveTowards(movement);
 
         if (!_isJumping) return;
@@ -61,10 +62,7 @@ public class PlayerController : MonoBehaviour
         {
             _lastVelocity = _rigid.linearVelocity;
             _lastGravity = _rigid.gravityScale;
-        }
-        
-        if (_isPaused)
-        {
+            
             _rigid.linearVelocity = Vector3.zero;
             _rigid.gravityScale = 0;
         }
@@ -100,7 +98,7 @@ public class PlayerController : MonoBehaviour
 
     private void ResetState()
     {
-        print("Reset State");
+        //print("Reset State");
         _isFalling = false;
         _isJumping = false;
         _collider.enabled = true;
@@ -108,7 +106,7 @@ public class PlayerController : MonoBehaviour
     
     public void Jump()
     {
-        print("Jump Called");
+        //print("Jump Called");
         _isJumping = true;
         _isFalling = false;
         _collider.enabled = false;

@@ -2118,7 +2118,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_84
+      name: Num_0
       rect:
         serializedVersion: 2
         x: 0
@@ -2140,7 +2140,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_85
+      name: Num_1
       rect:
         serializedVersion: 2
         x: 16
@@ -2162,7 +2162,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_86
+      name: Num_2
       rect:
         serializedVersion: 2
         x: 32
@@ -2184,7 +2184,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_87
+      name: Num_3
       rect:
         serializedVersion: 2
         x: 48
@@ -2206,7 +2206,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_88
+      name: Num_4
       rect:
         serializedVersion: 2
         x: 64
@@ -2228,7 +2228,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_89
+      name: Num_5
       rect:
         serializedVersion: 2
         x: 80
@@ -2250,7 +2250,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_90
+      name: Num_6
       rect:
         serializedVersion: 2
         x: 96
@@ -2272,7 +2272,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_91
+      name: Num_7
       rect:
         serializedVersion: 2
         x: 112
@@ -2294,7 +2294,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_92
+      name: Num_8
       rect:
         serializedVersion: 2
         x: 128
@@ -2316,7 +2316,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tilemap_packed_93
+      name: Num_9
       rect:
         serializedVersion: 2
         x: 144
@@ -3190,6 +3190,16 @@ TextureImporter:
       Bear_0: -2072081602
       Bear_1: 758219790
       Bear_2: -1045894143
+      Num_0: 834516353
+      Num_1: -406152696
+      Num_2: -692186939
+      Num_3: -2083008346
+      Num_4: -1788100499
+      Num_5: -1413707821
+      Num_6: 2104960858
+      Num_7: 1765213921
+      Num_8: 1083283613
+      Num_9: -2065550503
       Rock: 905554251
       Shadow: -184787996
       Skier_1_0: -1118728642
@@ -3303,17 +3313,7 @@ TextureImporter:
       tilemap_packed_76: 598135803
       tilemap_packed_77: -395718982
       tilemap_packed_8: 6766204184792930467
-      tilemap_packed_84: 834516353
-      tilemap_packed_85: -406152696
-      tilemap_packed_86: -692186939
-      tilemap_packed_87: -2083008346
-      tilemap_packed_88: -1788100499
-      tilemap_packed_89: -1413707821
       tilemap_packed_9: -6825893594525092589
-      tilemap_packed_90: 2104960858
-      tilemap_packed_91: 1765213921
-      tilemap_packed_92: 1083283613
-      tilemap_packed_93: -2065550503
       tilemap_packed_94: -278611200
       tilemap_packed_96: 783176595
       tilemap_packed_97: 1469451957

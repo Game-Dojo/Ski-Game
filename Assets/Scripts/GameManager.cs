@@ -5,12 +5,12 @@ public class GameManager : MonoBehaviour
 {
     [Header("Main references")]
     [SerializeField] private PlayerController player;
+    [SerializeField] private Score scoreUI;
     
     public delegate void GameEvent();
     public GameEvent OnGameStart { get; set;}
     public GameEvent OnGameEnd { get; set;}
     public GameEvent OnGameWon { get; set; }
-    
     public GameEvent OnGamePause { get; set; }
 
     public int Score { get; private set; }
@@ -20,7 +20,12 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
-            OnGamePause?.Invoke();
+            InvokePauseEvent();
+    }
+
+    public void InvokePauseEvent()
+    {
+        OnGamePause?.Invoke();
     }
 
     public void GameStart()
@@ -42,5 +47,6 @@ public class GameManager : MonoBehaviour
     public void SetScore(int amount)
     {
         Score += amount;
+        scoreUI.UpdateScore();
     }
 }
