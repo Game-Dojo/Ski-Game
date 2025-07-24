@@ -14,10 +14,32 @@ public class Score : MonoBehaviour
 
     public void UpdateScore()
     {
-        //string score = _gameManager.Score.ToString();
-        int score = _gameManager.Score;
-        //Debug.Log("1000: " + score % 1000 );
-        //Debug.Log("100: " + score % 100 );
-        Debug.Log("10: " + score % 10 );
+        string score = _gameManager.Score.ToString();
+        int scoreLength = score.Length;
+
+        if (scoreLength == 1)
+        {
+            GameObject lastDigit = transform.GetChild(_numCharacters - 1).gameObject;
+            if (lastDigit)
+                SetDigitValue(lastDigit, int.Parse(score));
+            return;
+        }
+        
+        var diff = _numCharacters - scoreLength;
+        for (var i = _numCharacters - 1; i >= 0; i--)
+        {
+            if (i < diff) continue;
+            GameObject obj = transform.GetChild(i).gameObject;
+            
+            // Char to int
+            // (int) '0' -> 0 -> HEX -> 30
+            if (obj) SetDigitValue(obj, score[i - scoreLength] - '0');
+        }
+    }
+
+    private void SetDigitValue(GameObject obj, int value)
+    {
+        if (obj.TryGetComponent<ScoreNumber>(out ScoreNumber scoreNumber))
+            scoreNumber.SetValue(value);
     }
 }
