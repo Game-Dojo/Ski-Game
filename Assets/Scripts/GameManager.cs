@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class GameManager : MonoBehaviour
@@ -16,6 +17,20 @@ public class GameManager : MonoBehaviour
     public int Score { get; private set; }
     
     private bool _gameOver = false;
+    private SaveManager _saveManager;
+
+    private void Awake()
+    {
+        _saveManager = GetComponent<SaveManager>();
+        _saveManager.DefaultSettings();
+        
+        print("Audio Setting: " + _saveManager.LoadAudioSetting());
+    }
+
+    private void Start()
+    {
+        print("Score Saved: " + _saveManager.LoadScore());
+    }
 
     private void Update()
     {
@@ -48,5 +63,11 @@ public class GameManager : MonoBehaviour
     {
         Score += amount;
         scoreUI.UpdateScore();
+
+        int savedScore = _saveManager.LoadScore();
+        if (Score > savedScore)
+            _saveManager.SaveScore(Score);
     }
+    
+    public SaveManager GetSaveManager() => _saveManager;
 }
